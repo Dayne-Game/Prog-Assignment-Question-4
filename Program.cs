@@ -24,7 +24,7 @@ namespace Prog_Assignment_Question_4
             Console.WriteLine("");
             var student = new Student(fname, lname, campus);
 
-            Console.WriteLine(student.DisplayStudent());
+            Console.WriteLine(student.PersonInfo());
 
             //End the program with blank line and instructions
             Console.ResetColor();

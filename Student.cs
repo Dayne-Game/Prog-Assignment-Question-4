@@ -20,11 +20,11 @@ namespace Prog_Assignment_Question_4
             return StudentID;
         }
 
-        public string DisplayStudent()
+        public string PersonInfo()
         {
-            EnrollStudent();
+            var sid = EnrollStudent();
 
-            return $"{FirstName} {LastName} of {Campus} has a student ID of {StudentID}";
+            return $"{FirstName} {LastName} of {Campus} has a student ID of {sid}";
         }
     }
 }
