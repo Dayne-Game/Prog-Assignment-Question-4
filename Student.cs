@@ -20,7 +20,7 @@ namespace Prog_Assignment_Question_4
             return StudentID;
         }
 
-        public string PersonInfo()
+        override public string PersonInfo()
         {
             var sid = EnrollStudent();
 

@@ -22,7 +22,12 @@ namespace Prog_Assignment_Question_4
 
         public string GetFullName()
         {
-            return $"Person: {FirstName} {LastName} is {GetAge()} years old";
+            return $"{FirstName} {LastName}";
+        }
+
+        virtual public string PersonInfo()
+        {
+             return $"Person: {FirstName} {LastName} is {GetAge()} years old";
         }
     }
 }
